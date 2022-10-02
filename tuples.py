@@ -1,0 +1,7 @@
+bin_colors = ('Red', 'Green', 'Blue', 'Yellow')
+print(bin_colors[1])
+print(bin_colors[2:])
+print(bin_colors[:-1])
+a=(1,2,(100,200,300),6)
+print(max(a[2]))
+print(a[2][1])
