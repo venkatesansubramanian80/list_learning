@@ -10,6 +10,12 @@ def MergeSort(list):
         a = 0
         b = 0
         c = 0
+        print("*********************")
+        print(list)
+        print("left")
+        print(left)
+        print("right")
+        print(right)
         while a < len(left) and b < len(right):
             if left[a] < right[b]:
                 list[c] = left[a]
@@ -27,8 +33,11 @@ def MergeSort(list):
             list[c] = right[b]
             b = b + 1
             c = c + 1
+        print(list)
+        print("*********************")
     return list
 
 list = [44,16,83,7,67,21,34,45,10]
-list = MergeSort(list)
+print(list)
+MergeSort(list)
 print(list)
